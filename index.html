@@ -71,7 +71,9 @@
             </h1>
           </div>
 
-          <button type="button" class="button-order">Order Service</button>
+          <button type="button" class="button-order" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -463,5 +465,12 @@
         </div>
       </div>
     </footer>
+    <!-- bacdrop -->
+    <div class="bacdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>X</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
