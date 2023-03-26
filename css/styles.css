@@ -567,9 +567,9 @@ img {
   transform: translateY(0);
 }
 /* section */
-.test {
+/* .test {
   outline: 2px solid tomato;
-}
+} */
 .no-padding {
   padding-top: 0;
   padding-bottom: 0;
