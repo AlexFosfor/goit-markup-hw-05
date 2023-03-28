@@ -417,7 +417,9 @@ img {
 }
 
 .modal-close {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: auto;
   background: var(--footer-title-text-color);
   fill: var(--title-text-color);
